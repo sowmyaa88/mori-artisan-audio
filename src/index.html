@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mori Artisan Audio</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script type="module" src="/main.ts"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Mori Artisan Audio</h1>
+      <p>Handcrafted audio accessories</p>
+    </header>
+
+    <main>
+      <section>
+        <h2 class="section-heading">Your Cart</h2>
+
+        <!-- ── Mogami 4-Pin XLR Headphone Cable ───────────────────────────── -->
+        <div class="product-row" data-testid="product-mogami-cable">
+
+          <!-- Inline SVG: braided headphone cable coil -->
+          <div class="product-thumb" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none" width="72" height="72">
+              <!-- Connector barrel (XLR plug body) -->
+              <rect x="28" y="4" width="16" height="10" rx="3" fill="#c8b89a" stroke="#8b7355" stroke-width="1.2"/>
+              <!-- XLR pin holes -->
+              <circle cx="33" cy="9" r="1.2" fill="#5a4a35"/>
+              <circle cx="39" cy="9" r="1.2" fill="#5a4a35"/>
+              <circle cx="36" cy="6.5" r="1.2" fill="#5a4a35"/>
+              <!-- Cable strain relief -->
+              <rect x="31" y="13" width="10" height="4" rx="2" fill="#8b7355"/>
+              <!-- Cable body — braided spiral coil rendered as overlapping arcs -->
+              <path d="M36 17 C20 17 20 27 36 27 C52 27 52 37 36 37 C20 37 20 47 36 47 C52 47 52 57 36 57"
+                    stroke="#6b5a3e" stroke-width="4" stroke-linecap="round" fill="none"/>
+              <!-- Braid highlight (lighter thread) -->
+              <path d="M36 17 C20 17 20 27 36 27 C52 27 52 37 36 37 C20 37 20 47 36 47 C52 47 52 57 36 57"
+                    stroke="#b09070" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="3 6" fill="none"/>
+              <!-- Bottom plug -->
+              <rect x="28" y="57" width="16" height="10" rx="3" fill="#c8b89a" stroke="#8b7355" stroke-width="1.2"/>
+              <rect x="31" y="55" width="10" height="4" rx="2" fill="#8b7355"/>
+            </svg>
+          </div>
+
+          <div class="product-info">
+            <div class="product-name">Mogami 4-Pin XLR Headphone Cable</div>
+            <div class="product-price">$65.00 each</div>
+          </div>
+
+          <div class="qty-controls">
+            <button
+              class="qty-btn"
+              data-testid="qty-decrease-mogami-cable"
+              aria-label="Decrease quantity of Mogami 4-Pin XLR Headphone Cable"
+              type="button"
+            >−</button>
+            <span
+              class="qty-display"
+              data-testid="qty-display-mogami-cable"
+              aria-live="polite"
+              aria-label="Quantity"
+            >0</span>
+            <button
+              class="qty-btn"
+              data-testid="qty-increase-mogami-cable"
+              aria-label="Increase quantity of Mogami 4-Pin XLR Headphone Cable"
+              type="button"
+            >+</button>
+          </div>
+
+          <div class="line-total" data-testid="line-total-mogami-cable">$0.00</div>
+        </div>
+
+        <!-- ── Walnut Desktop Headphone Stand ──────────────────────────────── -->
+        <div class="product-row" data-testid="product-walnut-stand">
+
+          <!-- Inline SVG: minimalist wooden headphone stand -->
+          <div class="product-thumb" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none" width="72" height="72">
+              <!-- Base platform -->
+              <rect x="14" y="60" width="44" height="7" rx="3" fill="#8b5e3c" stroke="#6b4428" stroke-width="1.2"/>
+              <!-- Stem -->
+              <rect x="33" y="22" width="6" height="40" rx="2" fill="#a0714f" stroke="#6b4428" stroke-width="1"/>
+              <!-- Yoke / arch — the curved hanger arm -->
+              <path d="M18 46 Q18 14 36 14 Q54 14 54 46"
+                    stroke="#8b5e3c" stroke-width="6" stroke-linecap="round" fill="none"/>
+              <!-- Walnut grain lines on the arch -->
+              <path d="M22 44 Q22 20 36 18 Q50 20 50 44"
+                    stroke="#6b4428" stroke-width="1" stroke-linecap="round" stroke-dasharray="2 4" fill="none" opacity="0.5"/>
+              <!-- Ear-pad rest pads (small rounded caps at arch ends) -->
+              <ellipse cx="18" cy="47" rx="5" ry="3" fill="#c8a882" stroke="#8b5e3c" stroke-width="1"/>
+              <ellipse cx="54" cy="47" rx="5" ry="3" fill="#c8a882" stroke="#8b5e3c" stroke-width="1"/>
+              <!-- Wood grain on base -->
+              <line x1="20" y1="63" x2="52" y2="63" stroke="#6b4428" stroke-width="0.8" opacity="0.4"/>
+              <line x1="22" y1="65" x2="50" y2="65" stroke="#6b4428" stroke-width="0.8" opacity="0.3"/>
+            </svg>
+          </div>
+
+          <div class="product-info">
+            <div class="product-name">Walnut Desktop Headphone Stand</div>
+            <div class="product-price">$45.00 each</div>
+          </div>
+
+          <div class="qty-controls">
+            <button
+              class="qty-btn"
+              data-testid="qty-decrease-walnut-stand"
+              aria-label="Decrease quantity of Walnut Desktop Headphone Stand"
+              type="button"
+            >−</button>
+            <span
+              class="qty-display"
+              data-testid="qty-display-walnut-stand"
+              aria-live="polite"
+              aria-label="Quantity"
+            >0</span>
+            <button
+              class="qty-btn"
+              data-testid="qty-increase-walnut-stand"
+              aria-label="Increase quantity of Walnut Desktop Headphone Stand"
+              type="button"
+            >+</button>
+          </div>
+
+          <div class="line-total" data-testid="line-total-walnut-stand">$0.00</div>
+        </div>
+
+        <!-- ── Order summary ───────────────────────────────────────────────── -->
+        <div class="order-summary">
+          <span class="order-summary-label">Order Total</span>
+          <span data-testid="order-total">$0.00</span>
+        </div>
+      </section>
+
+      <!-- ── Checkout form ─────────────────────────────────────────────────── -->
+      <section class="checkout-form">
+        <form id="checkout-form" novalidate>
+          <label for="customer-name">Customer Full Name</label>
+          <input
+            id="customer-name"
+            type="text"
+            data-testid="customer-name"
+            autocomplete="name"
+          />
+          <button type="submit" data-testid="place-order-btn">Place Order</button>
+          <div
+            data-testid="validation-error"
+            role="alert"
+            aria-live="assertive"
+            style="display:none"
+          ></div>
+        </form>
+      </section>
+
+      <div data-testid="confirmation-area" style="display:none"></div>
+    </main>
+  </body>
+</html>
